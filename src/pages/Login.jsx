@@ -1,24 +1,20 @@
-import { IdCard } from "lucide-react";
-import { FileText } from "lucide-react";
 import { useState } from "react";
-import invoices from "../assets/invoices.json";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../context/useAuth";
 
 const Login = () => {
+  const { user, signIn } = useAuth();
   const navigate = useNavigate();
-  const [user, setUser] = useState({ id: "", invoice: "" });
+  const [userData, setUserData] = useState({ id: "", invoice: "" });
 
-  const startTest = (e) => {
+  const startTest = async (e) => {
     e.preventDefault();
 
-    const currentUser = invoices.filter((invoice) => invoice.id === user.id);
+    await signIn(userData);
 
-    if (currentUser.length > 0) {
-      // if (currentUser[0].invoice === user.invoice) {
-      console.log("Usuario y recibo correcto");
-      setUser({ id: "", invoice: "" });
+    if (user) {
+      setUserData({ id: "", invoice: "" });
       navigate("test");
-      // }
     }
   };
 
@@ -58,8 +54,11 @@ const Login = () => {
                 type="text"
                 id="identification"
                 placeholder="Ej. 101110222"
-                value={user.id}
-                onChange={(e) => setUser({ ...user, id: e.target.value })}
+                autoComplete="off"
+                value={userData.id}
+                onChange={(e) =>
+                  setUserData({ ...userData, id: e.target.value })
+                }
                 className="w-full p-2 mb-3.75 rounded-xs outline-none border-0 bg-white text-black"
               />
 
@@ -73,8 +72,11 @@ const Login = () => {
                 type="text"
                 id="invoice"
                 placeholder="Ej. 1516939610"
-                value={user.invoice}
-                onChange={(e) => setUser({ ...user, invoice: e.target.value })}
+                autoComplete="off"
+                value={userData.invoice}
+                onChange={(e) =>
+                  setUserData({ ...userData, invoice: e.target.value })
+                }
                 className="w-full p-2 mb-3.75 rounded-xs outline-none border-0 bg-white text-black"
               />
 
