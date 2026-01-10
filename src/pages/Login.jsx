@@ -18,74 +18,75 @@ const Login = () => {
     }
   };
 
+  const handleNoDeleteChange = (field) => (e) => {
+    const newValue = e.target.value;
+
+    if (newValue.length >= userData[field].length) {
+      setUserData({ ...userData, [field]: newValue });
+    }
+  };
+
   return (
-    <section className="bg-[linear-gradient(135deg,#4facfe_0%,#00f2fe_100%)] min-h-screen font-sans">
-      <div className="bg-[rgba(255,255,255,0.9)] px-3.75 py-1.25 text-[12px] text-[#333] border-b border-[#ccc]">
-        <span>Simulador de Examen Teorico</span>
+    <section className="bg-[linear-gradient(135deg,rgba(52,146,220,1),rgba(48,155,223,1))] min-h-screen font-sans">
+      <div className="max-w-3xl pt-4 px-4 text-white">
+        <h3 className="text-[1.2rem] shadow-[1px_1px_2px_rgba(0,0,0,0.3)] py-6 px-0">
+          Bienvenido al examen teórico, requisito para la respectiva
+          acreditación del conductor
+        </h3>
       </div>
       <div className="w-4xl h-150 flex flex-col overflow-hidden">
-        <div className="flex flex-1 p-10">
+        <div className="flex flex-1 p-10 ml-4">
           <div className="flex-1 flex flex-col justify-center text-white pr-5">
-            <div className="instructions">
-              <h3 className="mb-3.75 text-[1.5rem] shadow-[1px_1px_2px_rgba(0,0,0,0.3)]">
-                Bienvenido al Sistema
-              </h3>
-              <p className="text-[0.9rem] mb-3.75 leading-[1.4] text-justify">
-                Para iniciar el examen teórico, por favor asegúrese de leer las
-                instrucciones detalladas en la pizarra.
+            <div>
+              <p className="mb-3.75 leading-[1.4] text-justify">
+                Lea cuidadosamente las indicaciones que se incluyen a lo largo
+                del examen, las mismas facilitarán el seguimiento de su prueba.
               </p>
-              <p className="text-[0.9rem] mb-3.75 leading-[1.4] text-justify">
-                Introduzca sus credenciales tal como aparecen en su documento de
-                identidad.
+              <p className="mb-3.75 leading-[1.4] text-justify">
+                Para iniciar con su examen debe ingresar su número de documento
+                de identidad y el número de su comprobante de pago.
+              </p>
+              <p className="mb-3.75 leading-[1.4] text-justify">
+                Posteriormente oprima el botón 'Ingresar' para iniciar el
+                examen.
               </p>
             </div>
 
-            <form
-              className="mt-7.5 bg-[rgba(255,255,255,0.1)] p-5 rounded-[5px]"
-              onSubmit={startTest}
-            >
-              <label
-                for="identification"
-                className="block mb-1.25 text-[0.8rem] font-bold"
-              >
-                Número de Identificación
+            <form className="p-5" onSubmit={startTest}>
+              <label for="user" className="block mb-1.25 font-bold">
+                Usuario
               </label>
               <input
                 type="text"
-                id="identification"
+                id="user"
                 placeholder="Ej. 101110222"
                 autoComplete="off"
                 value={userData.id}
-                onChange={(e) =>
-                  setUserData({ ...userData, id: e.target.value })
-                }
+                onChange={handleNoDeleteChange("id")}
                 className="w-full p-2 mb-3.75 rounded-xs outline-none border-0 bg-white text-black"
               />
 
-              <label
-                for="invoice"
-                className="block mb-1.25 text-[0.8rem] font-bold"
-              >
-                Número de Recibo
+              <label for="password" className="block mb-1.25 font-bold">
+                Contraseña
               </label>
               <input
                 type="text"
-                id="invoice"
+                id="password"
                 placeholder="Ej. 1516939610"
                 autoComplete="off"
                 value={userData.invoice}
-                onChange={(e) =>
-                  setUserData({ ...userData, invoice: e.target.value })
-                }
+                onChange={handleNoDeleteChange("id")}
                 className="w-full p-2 mb-3.75 rounded-xs outline-none border-0 bg-white text-black"
               />
 
-              <button
-                type="submit"
-                className="bg-[#ffcc00] text-[#333] px-5 py-2.5 font-bold cursor-pointer shadow-[2px_2px_5px_rgba(0,0,0,0.2)] hover:bg-[#e6b800]"
-              >
-                INGRESAR
-              </button>
+              <div className="w-full text-right mt-3.75">
+                <button
+                  type="submit"
+                  className="bg-[#d2d2d2] text-[#333] px-12 py-2 font-bold cursor-pointer shadow-[2px_2px_5px_rgba(0,0,0,0.2)] hover:bg-[#d2d2d2cd]"
+                >
+                  INGRESAR
+                </button>
+              </div>
             </form>
           </div>
 
