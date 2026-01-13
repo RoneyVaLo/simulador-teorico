@@ -27,16 +27,24 @@ const Login = () => {
   };
 
   return (
-    <section className="bg-[linear-gradient(135deg,rgba(52,146,220,1),rgba(48,155,223,1))] min-h-screen font-sans">
-      <div className="max-w-3xl pt-4 px-4 text-white">
+    <section
+      className="min-h-screen font-sans text-slate-800"
+      style={{
+        backgroundImage: "url('/bg.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "100vh",
+      }}
+    >
+      <div className="max-w-4xl pt-4 px-4 font-bold">
         <h3 className="text-[1.2rem] shadow-[1px_1px_2px_rgba(0,0,0,0.3)] py-6 px-0">
           Bienvenido al examen teórico, requisito para la respectiva
           acreditación del conductor
         </h3>
       </div>
-      <div className="w-4xl h-150 flex flex-col overflow-hidden">
+      <div className="w-6xl h-150 flex flex-col overflow-hidden">
         <div className="flex flex-1 p-10 ml-4">
-          <div className="flex-1 flex flex-col justify-center text-white pr-5">
+          <div className="flex-1 flex flex-col justify-center font-bold pr-5 max-w-102.5">
             <div>
               <p className="mb-3.75 leading-[1.4] text-justify">
                 Lea cuidadosamente las indicaciones que se incluyen a lo largo
@@ -82,7 +90,7 @@ const Login = () => {
               <div className="w-full text-right mt-3.75">
                 <button
                   type="submit"
-                  className="bg-[#d2d2d2] text-[#333] px-12 py-2 font-bold cursor-pointer shadow-[2px_2px_5px_rgba(0,0,0,0.2)] hover:bg-[#d2d2d2cd]"
+                  className="px-8 py-1.5 bg-gray-200 hover:bg-gray-200/90 border border-gray-400 shadow-sm text-base font-bold cursor-pointer"
                 >
                   INGRESAR
                 </button>
@@ -91,23 +99,13 @@ const Login = () => {
           </div>
 
           <div className="flex-1 flex justify-center items-center relative">
-            <div className="">
-              <div className="w-50 h-50 z-2 rotate-6">
-                <svg viewBox="0 0 100 100" className="warning-sign">
-                  <path
-                    d="M50 5 L95 90 L5 90 Z"
-                    fill="#FFCC00"
-                    stroke="black"
-                    stroke-width="3"
-                  />
-                  <path
-                    d="M50 30 L50 60"
-                    stroke="black"
-                    stroke-width="5"
-                    stroke-linecap="round"
-                  />
-                  <circle cx="50" cy="75" r="3" fill="black" />
-                </svg>
+            <div className="absolute right-14 bottom-14">
+              <div className="w-50 h-50 z-2">
+                <img
+                  src="/logo.webp"
+                  alt="Señal Zona Escolar"
+                  className="w-full object-contain contrast-[1.1]"
+                />
               </div>
             </div>
             <div className="absolute w-75 h-75 bg-[rgba(255,255,255,0.1)] rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-[20px]"></div>
