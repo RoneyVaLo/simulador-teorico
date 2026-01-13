@@ -97,19 +97,6 @@ const Login = () => {
               </div>
             </form>
           </div>
-
-          <div className="flex-1 flex justify-center items-center relative">
-            <div className="absolute right-14 bottom-14">
-              <div className="w-50 h-50 z-2">
-                <img
-                  src="/logo.webp"
-                  alt="Señal Zona Escolar"
-                  className="w-full object-contain contrast-[1.1]"
-                />
-              </div>
-            </div>
-            <div className="absolute w-75 h-75 bg-[rgba(255,255,255,0.1)] rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-[20px]"></div>
-          </div>
         </div>
       </div>
     </section>
