@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "text": "¿Cuál es la velocidad máxima permitida en zona escolar durante horas lectivas?",
+    "image": null,
+    "difficulty": "",
+    "options": [
+      { "id": "A", "text": "40 km/h", "is_correct": false },
+      { "id": "B", "text": "25 km/h", "is_correct": true },
+      { "id": "C", "text": "60 km/h", "is_correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Si usted llega a una intersección con una señal de ALTO, ¿qué debe hacer?",
+    "image": null,
+    "difficulty": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disminuir la velocidad y continuar si no vienen carros.",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Detenerse completamente antes de la línea de parada.",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Pitar para avisar que va a cruzar.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "¿Qué indican las líneas blancas discontinuas en la carretera?",
+    "image": null,
+    "difficulty": "",
+    "options": [
+      {
+        "id": "A",
+        "text": "Que se permite rebasar si es seguro hacerlo.",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Que está prohibido rebasar en todo momento.",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Que es una zona de estacionamiento.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "El uso del cinturón de seguridad es obligatorio para:",
+    "image": null,
+    "difficulty": "",
+    "options": [
+      { "id": "A", "text": "Solo el conductor.", "is_correct": false },
+      {
+        "id": "B",
+        "text": "El conductor y el copiloto únicamente.",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Todos los ocupantes del vehículo.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "¿Qué significa una luz roja intermitente en un semáforo?",
+    "image": null,
+    "difficulty": "",
+    "options": [
+      { "id": "A", "text": "Siga con precaución.", "is_correct": false },
+      {
+        "id": "B",
+        "text": "Equivale a una señal de ALTO.",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "El semáforo está dañado, pase rápido.",
+        "is_correct": false
+      }
+    ]
+  }
+]
