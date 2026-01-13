@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { useQuestions } from "../context/useQuestions";
 import { useAuth } from "../context/useAuth";
-import { useNavigate } from "react-router-dom";
 import useNavigationBlocker from "../hooks/useNavigationBlocker";
+
+const TEST_DURATION_MS = 1 * 60 * 1000; // 1 minutos
 
 const Test = () => {
   const { user } = useAuth();
@@ -13,6 +15,9 @@ const Test = () => {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [answerSelected, setAnswerSelected] = useState(false);
   const [blocked, setBlocked] = useState(true);
+
+  const startTimeRef = useRef(null);
+  const timeoutRef = useRef(null);
 
   const currentQuestion = questions[questionIndex];
 
@@ -31,9 +36,30 @@ const Test = () => {
   };
 
   const finishTest = () => {
+    clearTimeout(timeoutRef.current);
     setBlocked(false);
-    navigate("/summary");
+
+    const elapsedTime = startTimeRef.current
+      ? Date.now() - startTimeRef.current
+      : 0;
+
+    navigate("/summary", {
+      state: {
+        elapsedTime,
+      },
+    });
   };
+
+  useEffect(() => {
+    startTimeRef.current = Date.now();
+
+    timeoutRef.current = setTimeout(() => {
+      finishTest();
+    }, TEST_DURATION_MS);
+
+    return () => clearTimeout(timeoutRef.current);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <section className="bg-[#E1F4F9] min-h-screen flex font-sans">
@@ -56,7 +82,7 @@ const Test = () => {
 
           <div className="w-80">
             <img
-              src="/logo.webp"
+              src={currentQuestion.image ? currentQuestion.image : "/logo.webp"}
               alt="Señal Zona Escolar"
               className="w-full object-contain contrast-[1.1]"
             />

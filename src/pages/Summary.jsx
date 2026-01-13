@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useQuestions } from "../context/useQuestions";
 import { useAuth } from "../context/useAuth";
 import useNavigationBlocker from "../hooks/useNavigationBlocker";
@@ -14,9 +14,10 @@ const Summary = () => {
   const { user } = useAuth();
   const { answers, resetTest } = useQuestions();
   const navigate = useNavigate();
+  const { state } = useLocation();
 
   const [testStats, setTestStats] = useState({
-    timeUsed: 20,
+    timeUsed: 0,
     totalGoodAnswers: 0,
     totalBadAnswers: 0,
     goodAnswersScore: 0,
@@ -31,7 +32,7 @@ const Summary = () => {
   useEffect(() => {
     const checkUserAnswers = () => {
       let testResults = {
-        timeUsed: 0,
+        timeUsed: Math.floor(state?.elapsedTime / 1000 / 60), // Tiempo en minutos
         totalGoodAnswers: 0,
         totalBadAnswers: 0,
         goodAnswersScore: 0,
