@@ -1,95 +1,1716 @@
 [
   {
     "id": 1,
-    "text": "¿Cuál es la velocidad máxima permitida en zona escolar durante horas lectivas?",
+    "text": "¿De cuál de estos factores depende la cantidad de movimiento?",
     "image": null,
-    "difficulty": "",
     "options": [
-      { "id": "A", "text": "40 km/h", "is_correct": false },
-      { "id": "B", "text": "25 km/h", "is_correct": true },
-      { "id": "C", "text": "60 km/h", "is_correct": false }
+      {
+        "id": "A",
+        "text": "De la velocidad",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "De la fuerza",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "De la altura",
+        "is_correct": false
+      }
     ]
   },
   {
     "id": 2,
-    "text": "Si usted llega a una intersección con una señal de ALTO, ¿qué debe hacer?",
+    "text": "La lectura deficiente del señalamiento vial incrementa el riesgo de sufrir?",
     "image": null,
-    "difficulty": "",
     "options": [
       {
         "id": "A",
-        "text": "Disminuir la velocidad y continuar si no vienen carros.",
-        "is_correct": false
-      },
-      {
-        "id": "B",
-        "text": "Detenerse completamente antes de la línea de parada.",
+        "text": "Accidentes que se pudieron prevenir",
         "is_correct": true
       },
       {
+        "id": "B",
+        "text": "Situaciones propias de la circulación vehicular",
+        "is_correct": false
+      },
+      {
         "id": "C",
-        "text": "Pitar para avisar que va a cruzar.",
+        "text": "Situaciones propias de la circulación peatonal",
         "is_correct": false
       }
     ]
   },
   {
     "id": 3,
-    "text": "¿Qué indican las líneas blancas discontinuas en la carretera?",
+    "text": "¿A cuántos metros por delante del vehículo colocaremos los triángulos de seguridad en caso de emergencia?",
     "image": null,
-    "difficulty": "",
     "options": [
       {
         "id": "A",
-        "text": "Que se permite rebasar si es seguro hacerlo.",
+        "text": "15 metros",
         "is_correct": true
       },
       {
         "id": "B",
-        "text": "Que está prohibido rebasar en todo momento.",
+        "text": "10 metros",
         "is_correct": false
       },
       {
         "id": "C",
-        "text": "Que es una zona de estacionamiento.",
+        "text": "5 metros",
         "is_correct": false
       }
     ]
   },
   {
     "id": 4,
-    "text": "El uso del cinturón de seguridad es obligatorio para:",
+    "text": "Para ser un buen conductor que significa más que saber maniobrar el vehículo, se necesitan dos condiciones fundamentales que son.",
     "image": null,
-    "difficulty": "",
     "options": [
-      { "id": "A", "text": "Solo el conductor.", "is_correct": false },
+      {
+        "id": "A",
+        "text": "Mantener una actitud y posturas adecuadas",
+        "is_correct": true
+      },
       {
         "id": "B",
-        "text": "El conductor y el copiloto únicamente.",
+        "text": "Tener varios tipos de licencia y saber la Ley de Tránsito",
         "is_correct": false
       },
       {
         "id": "C",
-        "text": "Todos los ocupantes del vehículo.",
-        "is_correct": true
+        "text": "Saber de mecánica y de manejo defensivo",
+        "is_correct": false
       }
     ]
   },
   {
     "id": 5,
-    "text": "¿Qué significa una luz roja intermitente en un semáforo?",
+    "text": "La ley de tránsito establece una multa a quienes invadan el carril adjunto, separado por línea de barrera de ...",
     "image": null,
-    "difficulty": "",
     "options": [
-      { "id": "A", "text": "Siga con precaución.", "is_correct": false },
+      {
+        "id": "A",
+        "text": "Categoría C sin acumulación",
+        "is_correct": false
+      },
       {
         "id": "B",
-        "text": "Equivale a una señal de ALTO.",
+        "text": "Categoría B y la acumulación de 4",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Categoría A y la acumulación de 6 puntos",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Consiste en usar el motor reduciendo los cambios, como retenedor para disminuir la velocidad, el texto anterior se refiere a",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Tacómetro",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Freno motor",
         "is_correct": true
       },
       {
         "id": "C",
-        "text": "El semáforo está dañado, pase rápido.",
+        "text": "Diagrama de velocidades",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Una ventaja que presenta el uso de la rotonda es",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Controlar la velocidad",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Aumentar la velocidad",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Mejorar la estructura vial",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "¿De qué sistema del vehículo forman parte el carburador y el depósito de combustible?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Sistema de alimentación",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Sistema eléctrico",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Sistema de dirección",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "¿En qué año se publicó de manera oficial el primer Código de Circulación en Costa Rica?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "1920",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "1976",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "1912",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Si un conductor ingresa a una rotonda por el carril externo debe salir por",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Carril interno",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Carril externo",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Carril central",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "¿Qué elementos componen lo que se conoce como la \"trilogía vial\"?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Factor vehículo, factor humano y zona urbana",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "El ser humano, el vehículo, y la vía y su entorno",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Conductores, semovientes y estructura vial",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "Las prohibiciones que derivan en multas, suspensión de licencias o retiro de circulación de un vehículo se encuentra establecidas en",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Seguridad Vial",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Educación Vial",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "La Ley de transito",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Cómo se debe colocar el cinturón las mujeres en estado de embarazo.",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Sobre el pecho y bajo el vientre",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Bajo el pecho y bajo el vientre",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Bajo el pecho y sobre el vientre",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "¿Cuáles son las principales fuentes de la contaminación provocada por partículas micrométricas?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "El desorden en el tránsito en general",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Las emisiones de los vehículos",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "La contaminación provocada por la industria",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "¿Cuáles son los tres tipos de señalamiento que regulan el tránsito?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Señalamientos horizontales, verticales y luminosos",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Señales de información, reglamentación y prevención",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Reductores de velocidad, semáforos y CEDA",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "¿Cómo se denominan al conjunto de partículas contaminantes que rompen el equilibrio de los componentes naturales del aire con sus alteraciones físicas y químicas?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Alteraciones químicas de la atmósfera",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Contaminación atmosférica",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Materia radioactiva de la atmósfera",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Una señal de CEDA es de...",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Reglamentación",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Prohibición",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Prevención",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "Los captaluces (ojos de gato) de color blanco se pueden usar como complemento para la...",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Línea de vía",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Línea de centro",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Línea de barrera",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "¿De qué sistema forma parte el aceite de un vehículo?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Del sistema de alimentación",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Del sistema de lubricación",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Del sistema de suspensión",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "Las vías con un alto número de vehículos o mayor cantidad de carriles se conocen como...",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Avenidas",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Calles",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Vías principales",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "Para muchos conductores es visto, simplemente como un extra que un vehículo fabricado en cualquier parte del mundo debe traer, pero es un error que no se debe cometer.",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "El cinturón de seguridad",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "El aire acondicionado",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "El Tacómetro",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "La acumulación de 5 a 8 puntos en la licencia de conducir hará que el conductor al renovarla...",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Tenga un vigencia en la licencia de 3 años",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Tenga una vigencia en la licencia de 4 años",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Tenga una vigencia en la licencia de 6 años",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "¿Cuál de las siguientes es una norma básica de las rotondas?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "La velocidad mínima a la que se podrá circular es de 30 kilómetros por hora",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Los vehículos que circulen dentro de la rotonda lo harán siempre por el carril interno",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Los que se encuentren dentro de la vía circular siempre tendrán la preferencia de paso sobre aquellos que pretendan ingresar en ella",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "En el motociclismo en grupo ¿Quién pone el ritmo de la marcha?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "El líder",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Los principiantes",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "El que va de último",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "¿Cómo se llama el indicador que establece una mezcla ideal de aire y combustible en el motor?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Factor del motor",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Factor Lambda",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Factor catalizante",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "¿Cuál de las siguientes es una condición mental que podrá afectar a la capacidad del conductor?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Sensaciones positivas",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Visibilidad",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Homeostasis",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "Se demarca sobre la calzada con pintura especial para tránsito:",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Solo las líneas en la calzada",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "El señalamiento horizontal",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Las láminas ubicadas en postes o lugares elevados",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "¿Qué fuerza será de gran importancia conocer si transportamos materiales líquidos?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Fuerza de impulso",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Resistencia por inercia",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Fuerza centrífuga",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "Si dos vehículos llegan a una intersección no regulada ni señalada, o con iguales condiciones de señalamiento en sentidos opuestos ¿Qué prioridad tendrá el movimiento directo?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Prioridad 1",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Prioridad 3",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Prioridad 2",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "¿Dónde se encontrará el peralte de una curva hacia la derecha?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "En el centro de la calzada",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Hacia el lado derecho",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Hacia el lado izquierdo",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "¿De qué color serán la línea de centro y la línea barrera?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Blancas",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Rojas",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Amarillas",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "¿Qué consecuencias se evitan al mantener un vehículo con las llantas bien alineadas?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumento en el gasto de combustible y en el desgaste de las llantas",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Desgastes de las llantas y del motor",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Desperdicio de aceite y desgaste de llantas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "¿Qué cuidado diario deberemos tomar en cuenta en el vehículo?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Revisar la tensión de las fajas del abanico",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Limpiar las ventanillas, comprobar el funcionamiento de las escobillas y llevar triángulos",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Cambiar el aceite del motor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "¿Qué tipo de sanciones son las más graves?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Tipo C",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Tipo A",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Tipo B",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "El concepto de transporte unido al concepto de servicio, da una idea más clara de lo que en carretera significa?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Circular",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Maniobrar",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Prevenir",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "¿Cómo debe mantenerse la velocidad en la conducción nocturna?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentándola respecto al día para llegar antes al destino",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "En la mitad de la velocidad que se use de día",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Siempre en relación a la velocidad de los vehículos que circulen de frente",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "¿Qué tipo de contaminación proviene de los transformadores o las líneas de transmisión, y no es visible pese a estar por todas partes?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Contaminación lumínica",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Contaminación electromagnética",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Contaminación electrónica",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "¿Cuál es el área que estudia y aplica las acciones y mecanismos tendientes a garantizar el correcto funcionamiento de la circulación y previniendo los accidentes de tránsito?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Seguridad Vial",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Señalización horizontal, vertical y luminosa",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Ley de Tránsito",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "El concepto transporte significa...",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "La acción de transitar con el parque automotor que circule por la vía pública",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "La acción de trasladar a una cosa o persona de un lugar a otro",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "El medio que utilizaremos para trasladarnos de un lugar a otro",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "El paso de vehículos resulta ser más seguro y rentable que los cruces regulados mediante semáforos, el enunciado se refiere a",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Rotondas",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Intersecciones",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Islas de canalización",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "text": "¿Cuáles vehículos se consideran amigables con el medio ambiente?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Los que utilizan combustibles de tipo alternativo",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Los que tienen un motor sin ser afinado",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Los que están regulados",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "text": "Cuando llevamos un pasajero a bordo en motocicleta esta",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Tardará menos tiempo en virar",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Responderá más lentamente",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Tardará menos tiempo en acelerar",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "text": "Para realizar adecuadamente una maniobra de adelantamiento que es lo primero que se debe de hacer",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Ver que no circulen vehículos en sentido contrario",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Reducir velocidad",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Ver que no exista prohibición",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "text": "Al no respetar una señal de tránsito, conducir bajo los efectos de las drogas o el alcohol, o conducir sin la licencia de conducir...",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "El propietario se expondrá a una o varias sanciones",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "El conductor se expondrá a una o varias sanciones",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Tanto el propietario como el conductor se expondrán a una o varias sanciones",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "text": "La acera es una parte de la vía...",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Rural",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "No se considera parte de la vía",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Urbana",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "text": "Advertir al usuario sobre la existencia de posibles peligros y obstáculos en la vía es una función de",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Señales horizontales",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Seguridad vial",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Señalamiento vial",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "text": "¿Cuál de los siguientes es un grupo de partículas por millón (PPM) que genera problemas ambientales y sobrepasa los niveles aceptables?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "NO-CO-PB",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Asbesto",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Hollin",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "text": "Se utiliza en intersecciones, para guiar específicamente en el giro al lado izquierdo, separando los carriles principales de carriles de giro",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Línea de canalización",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Isla de canalización",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Línea de parada",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "text": "Como debe ser la postura correcta de un motociclista",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Brazos estirados, los pies apoyados en la punta, vista para todo el entorno",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Postura firme y cintura forzada",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "El cuerpo relajado, manos y pies listos para reaccionar, vista fija en la carretera",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "text": "¿Cuál de las siguientes zonas está formada por líneas sobre la calzada y se destinan al uso de los peatones?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Zona de paso y línea de parada",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Zona de paso y seguridad",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Zona de paso e isla de canalización",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "text": "¿Qué tipo de señalamiento vertical le indica al conductor el lugar donde se encuentra en ese momento?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Destino",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Información de ruta",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Información general",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "text": "¿A qué hace referencia la definición \"circulación rotatoria alrededor de una isleta central\"?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Vía de circulación",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Rotonda",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Vía secundaria",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "text": "¿Qué dejaremos accionado cada vez que estacionemos en una pendiente abajo?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "El freno de emergencia y la primera marcha",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "El freno de emergencia y la marcha neutra",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "El freno de emergencia y la reversa",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "text": "¿Cuál de los siguientes es un elemento clave parar el funcionamiento de la sociedad y a la vez causante de mucha contaminación?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "El entorno y la vía",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "El vehículo",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "El tránsito",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "text": "Cuando la motocicleta no presenta un diseño ergonómico, cual es la posición del cuerpo adecuada del motociclista",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Posición erguida y firme",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Posición con los brazos estirados",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Posición Natural",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "text": "¿Cuáles de los siguientes son combustibles alternativos?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Gasolina, hidrógeno y gas",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Aceite vegetal, diésel y gas",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Electricidad, hidrógeno y luz solar",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "text": "¿A qué se le conoce como el entendimiento de que los humanos somos responsables de la conservación de la naturaleza?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Naturaleza humana",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Conciencia ecológica",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Medio ambiente",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "text": "¿Para cuál de los siguientes vehículos no será obligatorio el dispositivo de seguridad para menores?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Vehículos de transporte público",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Vehículos pesados",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Vehículos livianos",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "text": "Son los tipos de contaminantes que permanecen en la atmosfera tal y como son lanzados",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Contaminantes solubles",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Contaminantes primarios",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Contaminantes secundarios",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "text": "¿Cuál articulo se refiere específicamente al derecho a circular?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Artículo 1 de la Ley de Tránsito",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Ley 7331 de Tránsito por Vías Públicas Terrestres",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Artículo 22 de la Constitución Política",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "text": "Los conceptos de factor humano, factor vehículo, y factor vía y entorno componen lo que se conoce como...",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Trilogía vial",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Circulación",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Ley de Tránsito",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "text": "¿En qué año Costa Rica se convirtió en líder de América Latina en seguridad vial?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "1912",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "1920",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "1970",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "text": "¿Por qué carril abandonarán la rotonda los conductores de vehículos que entren a ella por un carril externo?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Por cualquier carril",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Por el carril externo",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Por el carril interno",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "text": "¿Cuál de los siguientes tiene como objetivo disminuir el consumo de energía y los costos operativos de los automotores, vehículos y de las vías públicas?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "El tránsito",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "La Constitución Política",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "La seguridad vial",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "text": "¿A qué hace referencia la palabra ralentí?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Son los datos que el tacómetro facilitará de manera analógica",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Es el dispositivo que registra las revoluciones por minuto de un vehículo",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "El estado del vehículo cuando no está siendo acelerado por el conductor",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "text": "¿Qué sistema mantiene la temperatura ideal del motor?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Sistema de embrague",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Sistema de lubricación",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Sistema de enfriamiento",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "text": "¿Cuál de las siguientes afirmaciones sobre la zona verde es correcta?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Permitirá que el medio y el hombre se interrelacionen",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Permite que se conozcan los diferentes elementos que intervienen en la conservación del ambiente",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Es el área de funcionamiento óptimo del motor",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "text": "Se establece una circulación rotatoria al rededor de una isleta central, el enunciado se refiera a",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Rotonda",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Isla de canalización",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Curvas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "text": "Cuántos tipos de licencia clase C hay",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "C1, C2, C3",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "C1 solamente",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "C1 y C2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "text": "¿Cuáles son las tres grandes categorías en que se divide el señalamiento vial?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Señalamiento vertical, horizontal y luminoso",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Semáforos, capta luces y reductores de velocidad",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Señales de prevención, reglamentación e información",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "text": "En este grupo de señales, hay diversidad de figuras. En carreteras importantes o de alta velocidad se usan en mayor tamaño, con fondo verde y leyenda en blanco",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Señales de reglamentación",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Señales de prevención",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Señales de información",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "text": "¿De cuánto puede ser el ahorro que conseguiremos practicando una conducción técnica?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Hasta de un 15% de ahorro",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Hasta de un 30% de ahorro",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Hasta de un 12% de ahorro",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "text": "¿Qué dejaremos accionado cada vez que estacionemos en una pendiente arriba?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "El freno de emergencia y la primera marcha",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "El freno de emergencia y la marcha neutra",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "El freno de emergencia y la reversa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "text": "¿Cuáles tipos de señalamiento luminoso existen?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Semáforo peatonal, semáforo vehicular y semáforo preventivo",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Semáforo vehicular, semáforo peatonal y señal luminosa informativa",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Semáforo peatonal, semáforo vehicular y ojos de gato",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "text": "¿Qué consecuencia genera una situación con exceso de desechos sólidos, gases venenosos y hollín?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Un mayor número de vehículos con el sistema de motor deteriorado",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Gastos erogados y un mayor consumo de combustible",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Deterioro del medio ambiente y efectos negativos en la salud de las personas",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "text": "¿De qué color serán la línea de centro y la línea de barrera?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Amarillas",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Blancas",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Rojas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "text": "En una línea blanca transversal a la vía:",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Línea de canalización",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Línea de parada",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Línea de vía",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "text": "Las zonas de estacionamiento:",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Se utilizan para delimitar áreas específicas de estacionamiento en la calzada",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Ninguna opción es correcta",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Son líneas continuas, de color amarillo, perpendiculares al borde de la acera",
         "is_correct": false
       }
     ]
