@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/useAuth";
 
@@ -7,15 +7,20 @@ const Login = () => {
   const navigate = useNavigate();
   const [userData, setUserData] = useState({ id: "", invoice: "" });
 
+  useEffect(() => {
+    const handleStartTest = () => {
+      if (user) {
+        setUserData({ id: "", invoice: "" });
+        navigate("test");
+      }
+    };
+    handleStartTest();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user]);
+
   const startTest = async (e) => {
     e.preventDefault();
-
     await signIn(userData);
-
-    if (user) {
-      setUserData({ id: "", invoice: "" });
-      navigate("test");
-    }
   };
 
   const handleNoDeleteChange = (field) => (e) => {
@@ -74,16 +79,16 @@ const Login = () => {
                 className="w-full p-2 mb-3.75 rounded-xs outline-none border-0 bg-white text-black"
               />
 
-              <label for="password" className="block mb-1.25 font-bold">
+              <label for="invoice" className="block mb-1.25 font-bold">
                 Contraseña
               </label>
               <input
                 type="text"
-                id="password"
+                id="invoice"
                 placeholder="Ej. 1516939610"
                 autoComplete="off"
                 value={userData.invoice}
-                onChange={handleNoDeleteChange("id")}
+                onChange={handleNoDeleteChange("invoice")}
                 className="w-full p-2 mb-3.75 rounded-xs outline-none border-0 bg-white text-black"
               />
 
