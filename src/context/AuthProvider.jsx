@@ -7,14 +7,14 @@ export const AuthProvider = ({ children }) => {
 
   const signIn = async (userData) => {
     const currentUser = invoices.filter(
-      (invoice) => invoice.id === userData.id
+      (invoice) => invoice.id === userData.id,
     );
 
     if (currentUser.length > 0) {
-      // if (currentUser[0].invoice === userData.invoice) {
-      //   console.log("Usuario y recibo correcto");
-      setuser(currentUser);
-      // }
+      if (currentUser[0].invoice === userData.invoice) {
+        //   console.log("Usuario y recibo correcto");
+        setuser(currentUser);
+      }
     }
   };
 
