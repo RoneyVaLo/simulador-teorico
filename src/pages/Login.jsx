@@ -30,7 +30,7 @@ const Login = () => {
     <section
       className="min-h-screen font-sans text-slate-800"
       style={{
-        backgroundImage: "url('/bg.jpg')",
+        backgroundImage: "url('/bg.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh",
