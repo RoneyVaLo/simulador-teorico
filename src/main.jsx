@@ -5,6 +5,9 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { QuestionsProvider } from "./context/QuestionsProvider.jsx";
 import { AuthProvider } from "./context/AuthProvider.jsx";
+import { registerSW } from "virtual:pwa-register";
+
+registerSW({ immediate: true });
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -15,5 +18,5 @@ createRoot(document.getElementById("root")).render(
         </BrowserRouter>
       </QuestionsProvider>
     </AuthProvider>
-  </StrictMode>
+  </StrictMode>,
 );
