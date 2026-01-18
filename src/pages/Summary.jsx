@@ -60,6 +60,10 @@ const Summary = () => {
       testResults.result = score;
       testResults.isApproved = score >= approveScore;
 
+      testResults.totalBadAnswers +=
+        config.totalQuestion -
+        (testResults.totalGoodAnswers + testResults.totalBadAnswers);
+
       setTestStats(testResults);
     };
     checkUserAnswers();
@@ -76,7 +80,7 @@ const Summary = () => {
     <section
       className="min-h-screen font-sans text-slate-800"
       style={{
-        backgroundImage: "url('/bg.jpg')",
+        backgroundImage: "url('/bg.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh",

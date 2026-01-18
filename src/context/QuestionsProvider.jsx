@@ -4,7 +4,7 @@ import allQuestions from "../assets/questions.json";
 import { getRandomQuestions } from "../utils/randomQuestions";
 
 export const QuestionsProvider = ({ children }) => {
-  const AMOUNT = 5;
+  const AMOUNT = 40;
 
   const [questions, setQuestions] = useState(() =>
     getRandomQuestions(allQuestions, AMOUNT)

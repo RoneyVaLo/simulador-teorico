@@ -4,7 +4,7 @@ import { useQuestions } from "../context/useQuestions";
 import { useAuth } from "../context/useAuth";
 import useNavigationBlocker from "../hooks/useNavigationBlocker";
 
-const TEST_DURATION_MS = 1 * 60 * 1000; // 1 minutos
+const TEST_DURATION_MS = 40 * 60 * 1000; // 1 minutos
 
 const Test = () => {
   const { user } = useAuth();
