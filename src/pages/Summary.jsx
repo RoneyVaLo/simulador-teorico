@@ -7,7 +7,7 @@ import useNavigationBlocker from "../hooks/useNavigationBlocker";
 const config = {
   totalQuestion: 40,
   maxScore: 100,
-  approveScore: 80,
+  approveScore: 70,
 };
 
 const Summary = () => {
