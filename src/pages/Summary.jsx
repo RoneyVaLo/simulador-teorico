@@ -11,7 +11,7 @@ const config = {
 };
 
 const Summary = () => {
-  const { user } = useAuth();
+  const { user, setUser } = useAuth();
   const { answers, resetTest } = useQuestions();
   const navigate = useNavigate();
   const { state } = useLocation();
@@ -73,6 +73,7 @@ const Summary = () => {
   const restartTest = () => {
     resetTest();
     setBlocked(false);
+    setUser(null);
     navigate("/");
   };
 
