@@ -507,7 +507,7 @@
   },
   {
     "id": 24,
-    "text": "En el motociclismo en grupo ¿Quién pone el ritmo de la marcha?",
+    "text": "En el motociclismo en grupo quien pone el ritmo de la marcha?",
     "image": null,
     "options": [
       {
@@ -1711,6 +1711,776 @@
       {
         "id": "C",
         "text": "Son líneas continuas, de color amarillo, perpendiculares al borde de la acera",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "text": "¿Por qué acostumbran a producirse las colisiones traseras?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Por adelantar a otros vehículos por la derecha",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Por temeridad, fatiga o vanidad",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Por no guardar la distancia de seguridad o por distracción o imprudencia",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "text": "¿Qué es la resistencia al rodamiento?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "La marcha que se produce sobre un recorrido hacia abajo o hacia arriba",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "El peligro de vuelco al conducir",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "La fricción causada por el contacto de las llantas con la superficie de rodamiento",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "text": "Los principales elementos de la estructura vial son...",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Vías de circulación, Intersecciones, señalamiento",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Vía pública, urbana y señalamiento (vertical y horizontal)",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Vía pública y urbana",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "text": "Al aproximarse en motocicleta a superficies problemáticas o se está a punto de arrancar es importante",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Utilizar la máxima potencia del motor",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Aumentar la maniobrabilidad",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Sujetarse con firmeza",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "text": "¿Qué vehículos deberán andar siempre a todas horas con las luces encendidas?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Motocicletas y UTV",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Bicimotos, motocicletas y UTV",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Bicimotos y motocicletas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "text": "¿Qué leyes se promulgaron debido al desproporcionado aumento de las tasas de accidente en la década de los 70?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "La Ley 5930: Ley de Tránsito, y la Ley 6324: Ley de Administración Vial",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "La Ley 5930: Ley de Administración Vial, y la Ley 6324: Ley de Tránsito",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "La Ley 6324: Ley de Tránsito por Vías Públicas Terrestres, y la Ley 5930: Ley de Administración Vial",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "text": "¿Cómo se identifica una zona de estacionamiento?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Son líneas continuas de color amarillo que se utilizan para delimitar áreas específicas de la calzada",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Son líneas discontinuas de color amarillo, utilizadas para delimitar áreas específicas de la calzada",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Son líneas continuas de color blanco y perpendiculares al borde de la acera",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "text": "En el señalamiento horizontal, la pintura amarilla separa carriles con sentidos opuestos de circulación, como en la línea de centro, de barrera, el carril central de giro izquierdo y algunas islas de canalización",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Falso",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Verdadero",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "text": "Este tipo de construcción tiene como ventaja que obliga al conductor a controlar la velocidad de los vehículos, por que su radio los puede hacer volcar",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Curva Horizontal",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Rotonda",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Peralte",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "text": "Cuando se circula en motocicleta en medio de filas de vehículos es importante para el pasajero",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Mantener la vista hacia adelante, los brazos y piernas firmes",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Mantener las piernas alejadas del tubo de escape y no abrir mucho las piernas",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Mantener las piernas firmes y sujetarse al conductor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "text": "Un complemento a la línea de vía son los captaluces de color",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Color Blanco",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Color rojo",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Color amarillo",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "text": "Es un problema mental de muchos conductores que se considera la conducción tan fácil que tienden a aumentar la velocidad",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Homeostasis",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Vanidad",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Arrogancia",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "text": "¿Cuál es el movimiento realizado por una biela en el interior del motor?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Rotación",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Traslación",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Ascendente descendente o Alternativo",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "text": "¿Cuál es la función de las islas de canalización?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Al ser una línea amarilla de tipo discontinuo, prohíbe circular sobre ella",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Se utilizan para el parqueo de los automotores",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Eliminar el sobre ancho de una calzada y ordenar el tránsito en las zonas más conflictivas",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "text": "De acuerdo con los tipos de giro o movimiento, tiene prioridad en segundo lugar?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "El giro a la izquierda",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "El movimiento directo",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "El giro a la derecha",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "text": "El conductor podrá controlar de forma técnica la potencia del motor si hace un buen uso de su conocimiento sobre?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "La fuerza centrifuga de la circulación",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Las fuerzas que intervienen al desplazarse el vehículo",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "El giro del volante hacia la derecha y hacia la izquierda",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "text": "¿Qué dirección llevan las avenidas?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Norte a sur",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Este a oeste",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Sur a oeste",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "text": "¿Cuál modelo de los sistemas principales de señalamiento se utiliza por excelencia en Costa Rica?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Europeo",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Estadounidense y europeo",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Estadounidense",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "text": "Cual tipo de colisión o choque es el más común",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Colisión lateral izquierda",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Choque de frente",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Colisión trasera",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "text": "Cuando se derrama un litro de aceite, ¿de qué tamaño puede ser la mancha que produce?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "100 metros cuadrados",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "1 metro cuadrado",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Una hectárea",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "text": "¿Qué tipo de señalamiento indicará si una vía es primaria o secundaria?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Prevención",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Reglamentación",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Información",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "text": "Reduce la velocidad del giro del motor",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Caja de velocidades y el diferencial",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Embrague y el Cardán",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "El diferencial y las flechas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "text": "¿Cuál de los siguientes es un elemento del que depende la conducción nocturna?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "La velocidad",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "La aceleración",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "La ligereza",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "text": "¿Qué nombre recibe la regla que establece la distancia que debe mantener un vehículo pesado con el vehículo de adelante?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Regla de mil ciento dos",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Regla del intervalo",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Regla de los dos segundos",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "text": "En caso de hidroplaneamiento:",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Mantener el pie sobre el acelerador y frenar al mismo tiempo para secar las fibras del sistema de frenos",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Virar el volante en dirección opuesta del patinazo",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Virar el volante en dirección del patinazo",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "text": "¿Qué nombre recibe la situación en que un vehículo pierde su correcta posición en la calzada, cayendo de lado o virando sobre su eje?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Vuelco",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Derrape",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Peralte",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "text": "¿Cual es la zona destinada al cruce de peatones y pintada con franjas anchas paralelas entre sí, en lugares de gran tránsito peatonal?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Isla de canalización",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Zona de paso",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Zona de seguridad",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "text": "Como debe ser la distancia entre cada uno de los integrantes de un grupo de motociclistas",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Unidos en formación escalonada",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Separados en formación en parejas",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Unidos en formación lineal",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "text": "¿Con qué fuerza están relacionados los sobreniveles que encontramos en algunas curvas?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Con la fuerza por inercia",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Con la fuerza aerodinámica",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Con la fuerza centrífuga",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "text": "¿Qué contaminante deja daños en el sistema nervioso y cardiovascular, hasta causar incluso la muerte?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "El monóxido de carbono",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "El dióxido de carbono",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "El hollín",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "text": "¿Por qué razones el alcohol es incompatible con el manejo de un vehículo?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Porque aumenta el grado de maniobrabilidad y crea un estado de somnolencia",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Porque aumenta el tiempo de reacción y crea un estado de euforia falso",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Porque incrementa la capacidad visual y crea una falsa apreciación de las cosas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "text": "Esteban se presenta a renovar su licencia, en el sistema aparece que ha acumulado 4 puntos. Por cuantos años le darán la licencia?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "4 años",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "6 años",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "3 años",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "text": "Cual es un punto importante a tomar en cuenta en el motociclismo en grupo",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Que todos conozcan la ruta",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Que todos cuenten con la información meteorológica y accesorios recomendados",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Todos sean experimentados en el manejo en grupo",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "text": "Si dos vehículos llegan a una intersección no regulada ni señalada, o con iguales condiciones de señalamiento en sentidos opuestos, ¿Qué prioridad tiene el giro hacia la derecha?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Prioridad 3",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Prioridad 1",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Prioridad 2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "text": "En el semáforo, la luz amarilla es una...",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Señal preventiva que avisa el cambio a luz verde",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Señal que avisa el cambio a luz roja",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Señal preventiva que indica que se debe seguir con cuidado",
         "is_correct": false
       }
     ]
