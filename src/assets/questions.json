@@ -2484,5 +2484,533 @@
         "is_correct": false
       }
     ]
+  },
+  {
+    "id": 114,
+    "text": "¿Cuál de las siguientes condiciones emocionales hace que el conductor se moleste con cualquier situación y se altere con facilidad?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Susceptibilidad",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Vanidad",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Ligereza",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "text": "¿Dónde deberá detenerse un vehículo cuando haya un alto?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Línea de parada si la hubiera, y si no donde no obstruya la vía",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Línea de canalización si la hubiera, y si no donde no obstruya la vía",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Línea de parada si la hubiera, y si no continuar lentamente sonando la bocina",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "text": "¿Qué deberemos hacer cuando detengamos el vehículo de manera paralela a la acera y en pendiente?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Usar los espejos retrovisores para comprobar si hemos dejado 15 centímetros de distancia con la acera",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Usar los espejos retrovisores para comprobar si hemos dejado 50 centímetros de distancia con la acera",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Usar los espejos retrovisores para comprobar si hemos dejado 75 centímetros de distancia con la acera",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "text": "¿En qué fase de los tres elementos de la conducción, el conductor interpreta los estímulos que recibe según sus experiencias y conocimientos?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Fase de volición",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Fase de percepción",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Fase de intelección",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "text": "¿Cómo conseguiremos emitir menos emisiones tóxicas y ahorrar dinero?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Manteniendo el motor, los filtros y las bujías limpios y en buen estado",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Mantener el exterior del vehículo limpio y presentable",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Únicamente manteniendo en buen estado el sistema de enfriamiento",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "text": "En los semáforos, la luz roja intermitente...",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Obliga a los vehículos a reducir su velocidad y continuar con precaución",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Obliga a los vehículos a detenerse y esperar el cambio a luz verde",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Equivale a una señal de ALTO y solo se puede continuar si se está seguro de que no viene ningún vehículo o de que ningún peatón está cruzando la vía",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "text": "Los niños podrán utilizar el cinturón de tres puntos de un vehículo con exclusión de la obligatoriedad cuando cumplan con:",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "La estatura superior a 145 cm, sentado con su cadera flexionada con ángulo de 90 grados y los pies en su totalidad apoyados en el piso del vehículo",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Estatura de 130 cm, los pies apoyados en el piso del vehículo, sentado con su cadera flexionada en ángulo de 85 grados",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Estatura de 150 cm, cinturón de seguridad a la altura del cuello, sentado con la cadera ángulo de 90 grados",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "text": "¿De cuánto es la mezcla ideal entre aire y combustible que establece el factor lambda?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "14,5 gramos de aire por cada gramo de combustible",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "14,7 gramos de combustible por cada gramo de aire",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "14,7 gramos de aire por cada gramo de combustible",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "text": "¿Cuál de estos tres elementos, tiene prioridad en una vía? Semáforo, señal de CEDA y señal de ALTO",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "El semáforo",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "La señal de CEDA",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "La señal de ALTO",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "text": "Donde se debe sentar el pasajero de una motocicleta",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Lo más adelante que pueda",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "En un punto medio",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Lo más atrás que pueda",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "text": "¿De cuántas secciones o componentes estructurales dispone una vía urbana?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "3",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "4",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "text": "En una intersección no señalada, ¿qué número de prioridad tendrá el giro a la izquierda?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Número 3",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Número 4",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Número 2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "text": "¿Qué tipo de polución se define como aquella con partículas contaminantes que rompen el equilibrio de los componentes naturales del aire?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Contaminación de tipo secundario",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Contaminación de tipo primario",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Contaminación atmosférica",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "text": "¿Cuál son los elementos principales de la infraestructura vial?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Vías urbanas, vías públicas, y señalamiento horizontal y vertical",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Señalamiento, vías de circulación e intersecciones",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Vías públicas y vías urbanas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "text": "El NO ESTACIONAR es una señal de:",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Información",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Reglamentación",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Restricción",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "text": "¿Qué tipo de vehículo se permite conducir con la licencia tipo A-2, según el artículo 85?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Bicimotos y motocicletas de combustión interna con cilindrada inferior a los 250 centímetros cúbicos",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Bicimotos y motocicletas de combustión interna con cilindrada inferior a los 500 centímetros cúbicos",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Bicimotos y motocicletas de combustión interna con cilindrada inferior a los 125 centímetros cúbicos",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "text": "Cuál nombre recibe la línea transversal al sentido de la vía, de color blanco",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Línea de parada",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Línea de canalización",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Línea de vía",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "text": "Costa Rica exporta azúcar, banano y café. ¿A qué ayuda al País la exportación de estos productos?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "A que el PIB sea menor con la generación de ingresos por exportación",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "A que Costa Rica invierta en petróleo con lo generado por las exportaciones",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "A que el tipo de cambio aumente generándole dólares al país",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "text": "¿Sobre cuál otra señal de las siguientes tendrá prioridad de paso el CEDA?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Semáforo",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Sobre la señal de ALTO",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Autoridades",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "text": "Los costos por combustible significan para el transporte automotor",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "No son tan importantes",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Los más importantes a tomar en cuenta",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Son los que se deben evitar a toda costa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "text": "¿En qué fechas fueron promulgadas la Ley de Tránsito y la Ley de Administración Vial, respectivamente?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "1975 y 1979",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "1969 y 1979",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "1976 y 1979",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "text": "¿A qué condiciones se refiere la definición del \"alteraciones en la conducta que afectan a la capacidad de un conductor para manejar con la máxima seguridad\"?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Condiciones físicas",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Condiciones de somnolencia",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Condiciones emocionales",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "text": "¿Cuál de las siguientes es una de las claves para ser competitivo en la industria del transporte?",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "La conducción de vehículos automotores de manera deficiente",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Minimizar los costos de operación reduciendo al máximo los costos de mantenimiento",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Generar nuevas fuentes de empleo para mejorar la calidad de vida",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "text": "Lograr la buena conducción así como una buena selección del vehículo de acuerdo al tipo de operación que se requiera es un facilidad que el conductor puede obtener",
+    "image": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Si usa el velocímetro para calcular las velocidades",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Si usa el diagrama de velocidades",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Si usa el odómetro para el mismo fin",
+        "is_correct": false
+      }
+    ]
   }
 ]
